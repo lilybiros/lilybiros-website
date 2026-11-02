@@ -2,7 +2,7 @@
 
 The source for my personal website: **[lilybiros.com](https://lilybiros.com)**
 
-I work in digital communications, and I built this site to show my work and to learn how websites really get made. I have no coding background, so I directed the build using AI assistance (Claude Code), reviewing each version and deciding what to change.
+I work in digital communications, and I built this site to show my work and to learn how websites really get made. With a background in Journalism, I have no coding experience, so I directed the build using AI assistance (Claude Code), reviewing each version with full creative control and direction.
 
 ## The brief
 
