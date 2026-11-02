@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recreation | Lily Biros</title>
+  <meta name="description" content="Lily Biros manages social media channels, films short videos and runs a self hosted home lab on a UGREEN NAS.">
+  <link rel="canonical" href="https://lilybiros.com/recreation/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Lily Biros">
+  <meta property="og:url" content="https://lilybiros.com/recreation/">
+  <meta property="og:title" content="Recreation | Lily Biros">
+  <meta property="og:description" content="Lily Biros manages social media channels, films short videos and runs a self hosted home lab on a UGREEN NAS.">
+  <meta property="og:image" content="https://lilybiros.com/assets/logo-large.png">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="../assets/blob.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,400&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body class="page-dark">
+  <canvas id="net" aria-hidden="true"></canvas>
+  <div class="progress" aria-hidden="true"><span></span></div>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav">
+    <a class="nav__logo" href="../" aria-label="Lily Biros, home"><img src="../assets/logo-white.png" alt="Lily Biros" width="500" height="200"></a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="../#projects">Projects</a>
+      <a href="../#experience">Experience</a>
+      <a href="../#about">About</a>
+      <a href="./" aria-current="page">Recreation</a>
+      <a class="nav__cta" href="#contact">Let's talk</a>
+    </nav>
+    <button class="nav__toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu"><span></span><span></span></button>
+  </header>
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <a href="../#projects">Projects</a><a href="../#experience">Experience</a><a href="../#about">About</a><a href="./">Recreation</a><a href="#contact">Let's talk</a>
+  </div>
+
+  <main>
+    <header class="page-head page-head--lab">
+      <div>
+        <p class="eyebrow">Off the clock</p>
+        <h1 class="display" data-decode>Recreation</h1>
+        <p>I'm Lily Biros, and in my free time, I manage social media channels across multiple platforms, film short videos and vlogs, and run agentic code for my self hosted network attached storage.</p>
+      </div>
+      <div class="lab-mascot" aria-hidden="true">
+        <div class="mascot" id="mascot"><img src="../assets/blob.png" alt="" width="500" height="500" draggable="false"></div>
+        <p class="mascot__hint">poke and drag me</p>
+      </div>
+    </header>
+
+    <!-- ============ MOVING BANNER (keep both groups identical) ============ -->
+    <div class="marquee" aria-label="Social media manager, home labbing, self hosting, vibe coder, video editor">
+      <div class="marquee__track" aria-hidden="true">
+        <div class="marquee__group"><span>Social media manager</span><b>✺</b><span>Home labbing</span><b>✺</b><span>Self hosting</span><b>✺</b><span>Vibe coder</span><b>✺</b><span>Video editor</span><b>✺</b><span>Social media manager</span><b>✺</b><span>Home labbing</span><b>✺</b><span>Self hosting</span><b>✺</b><span>Vibe coder</span><b>✺</b><span>Video editor</span><b>✺</b></div>
+        <div class="marquee__group" aria-hidden="true"><span>Social media manager</span><b>✺</b><span>Home labbing</span><b>✺</b><span>Self hosting</span><b>✺</b><span>Vibe coder</span><b>✺</b><span>Video editor</span><b>✺</b><span>Social media manager</span><b>✺</b><span>Home labbing</span><b>✺</b><span>Self hosting</span><b>✺</b><span>Vibe coder</span><b>✺</b><span>Video editor</span><b>✺</b></div>
+      </div>
+    </div>
+
+    <!-- ============ CODE AND SELF HOSTING ============ -->
+    <section class="section section--dark">
+      <header class="section__head">
+        <h2 class="display display--light reveal" data-decode>Code</h2>
+      </header>
+      <div class="code-intro reveal">
+        <p>I run my home lab on a UGREEN NAS DXP2800, configured in RAID 1 with HDD and SSD drives. It hosts Immich, Tailscale, Pihole, Vaultwarden, Home Assistant and AdGuard, each in its own Docker container, with remote access from anywhere in the world. I built all of it as a communicator with no coding background.</p>
+        <a class="btn btn--light" href="https://github.com/lilybiros" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+      <!-- Each one links to its official website -->
+      <div class="stack">
+        <a class="stack__item reveal" href="https://immich.app/" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/immich.svg" alt="" loading="lazy"><h3>Immich</h3><p>Photo and video backup from my phone</p></a>
+        <a class="stack__item reveal" href="https://nas.ugreen.com/" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/ugreen.svg" alt="" loading="lazy"><h3>UGREEN NAS</h3><p>The storage and server everything runs on</p></a>
+        <a class="stack__item reveal" href="https://tailscale.com/" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/tailscale.svg" alt="" loading="lazy"><h3>Tailscale</h3><p>Private network to reach home from anywhere</p></a>
+        <a class="stack__item reveal" href="https://github.com/dani-garcia/vaultwarden" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/vaultwarden.svg" alt="" loading="lazy"><h3>Vaultwarden</h3><p>Self hosted password manager</p></a>
+        <a class="stack__item reveal" href="https://pi-hole.net/" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/pi-hole.svg" alt="" loading="lazy"><h3>Pihole</h3><p>Ad and tracker blocking for the whole network</p></a>
+        <a class="stack__item reveal" href="https://www.home-assistant.io/" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/home-assistant.svg" alt="" loading="lazy"><h3>Home Assistant</h3><p>Smart home control in one place</p></a>
+        <a class="stack__item reveal" href="https://adguard.com/en/adguard-home/overview.html" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/adguard-home.svg" alt="" loading="lazy"><h3>AdGuard</h3><p>DNS level filtering for ads and trackers</p></a>
+      </div>
+    </section>
+
+    <!-- ============ CHANNEL PREVIEWS ============
+         Instagram photo grids are live embeds and update themselves. Instagram has no dark embed, so its white header is cropped off and replaced with the dark one here.
+         YouTube has no channel embed, so those cards show the profile photo and four recent video thumbnails.
+         To change a thumbnail, replace the video ID in its link and image. -->
+    <section class="section">
+      <header class="section__head">
+        <h2 class="display reveal" data-decode>Channels</h2>
+      </header>
+      <p class="channels-blurb reveal">I manage multiple channels across YouTube and Instagram for my personal use and for Columbus, Ohio's breaking crew. I handle social media end to end, from editing and messaging to campaign curation and publishing.</p>
+
+      <div class="channel-group">
+        <h3 class="group-title">C Funk · Columbus, Ohio breaking crew</h3>
+        <div class="channels">
+          <article class="channel-card reveal">
+            <a class="channel-card__head" href="https://www.youtube.com/@CFunk_Columbus" target="_blank" rel="noopener">
+              <img src="https://yt3.googleusercontent.com/aRsrFrvFtwFW8PuWhfhlOj0w_XvLAFYj2BwxI9szKy6w_qSgaLF-I2xUuiJzgxE6bnAiuYWy=s176-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer">
+              <span><h3>C Funk on YouTube</h3><span class="channel-card__handle">@CFunk_Columbus ↗</span></span>
+            </a>
+            <p class="channel-card__bio">Columbus Ohio breaking crew. Hip hop, battles and culture.</p>
+            <div class="thumbs">
+              <a href="https://www.youtube.com/watch?v=iInBIVrDJWs" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/iInBIVrDJWs/mqdefault.jpg" alt="C Funk cypher, October 25" loading="lazy"></a>
+              <a href="https://www.youtube.com/watch?v=ZcTbYONn9oo" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/ZcTbYONn9oo/mqdefault.jpg" alt="Flavor'd Flow 10th Anniversary Party final cypher battle" loading="lazy"></a>
+              <a href="https://www.youtube.com/watch?v=rdZZYAl_ndQ" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/rdZZYAl_ndQ/mqdefault.jpg" alt="C Funk cypher, October 14" loading="lazy"></a>
+              <a href="https://www.youtube.com/watch?v=HHFl6_QQzUE" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/HHFl6_QQzUE/mqdefault.jpg" alt="C Funk cypher, October 7" loading="lazy"></a>
+            </div>
+          </article>
+          <article class="channel-card reveal">
+            <a class="channel-card__head" href="https://www.instagram.com/cfunk_columbus/" target="_blank" rel="noopener">
+              <img src="https://yt3.googleusercontent.com/aRsrFrvFtwFW8PuWhfhlOj0w_XvLAFYj2BwxI9szKy6w_qSgaLF-I2xUuiJzgxE6bnAiuYWy=s176-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer">
+              <span><h3>C Funk on Instagram</h3><span class="channel-card__handle">@cfunk_columbus ↗</span></span>
+            </a>
+            <p class="channel-card__bio">Event recaps, clips and crew news.</p>
+            <div class="ig-window"><iframe class="ig-embed" src="https://www.instagram.com/cfunk_columbus/embed/" title="C Funk Instagram posts" loading="lazy" scrolling="no"></iframe></div>
+          </article>
+        </div>
+      </div>
+
+      <div class="channel-group">
+        <h3 class="group-title">My own channels</h3>
+        <div class="channels">
+          <article class="channel-card reveal">
+            <a class="channel-card__head" href="https://www.youtube.com/@theill_Lil" target="_blank" rel="noopener">
+              <img src="https://yt3.googleusercontent.com/3M3WCjPndx7LmYa-EButok0xsZWr96diyKAgx4bF0rtt-quPBdrlxPpiDAeIFtbCp3jzlXQ=s176-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer">
+              <span><h3>bgirl ill Lil on YouTube</h3><span class="channel-card__handle">@theill_Lil ↗</span></span>
+            </a>
+            <p class="channel-card__bio">My breaking rounds and performances from Columbus, OH.</p>
+            <div class="thumbs">
+              <a href="https://www.youtube.com/watch?v=Gjpf8M3kGCU" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/Gjpf8M3kGCU/mqdefault.jpg" alt="ill Lil Columbus Art Festival performance" loading="lazy"></a>
+              <a href="https://www.youtube.com/watch?v=Ni-57HTm1w4" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/Ni-57HTm1w4/mqdefault.jpg" alt="ill Lil breakin in Paris" loading="lazy"></a>
+              <a href="https://www.youtube.com/watch?v=Ncx_sgIp2j4" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/Ncx_sgIp2j4/mqdefault.jpg" alt="bgirl ill Lil breakin cypher, April" loading="lazy"></a>
+              <a href="https://www.youtube.com/watch?v=rsOeWvx8HPI" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/rsOeWvx8HPI/mqdefault.jpg" alt="bgirl ill Lil breakin cypher, March" loading="lazy"></a>
+            </div>
+          </article>
+          <article class="channel-card reveal">
+            <a class="channel-card__head" href="https://www.instagram.com/theill.lil/" target="_blank" rel="noopener">
+              <img src="https://yt3.googleusercontent.com/3M3WCjPndx7LmYa-EButok0xsZWr96diyKAgx4bF0rtt-quPBdrlxPpiDAeIFtbCp3jzlXQ=s176-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer">
+              <span><h3>ill Lil on Instagram</h3><span class="channel-card__handle">@theill.lil ↗</span></span>
+            </a>
+            <p class="channel-card__bio">Training, events and everyday life.</p>
+            <div class="ig-window"><iframe class="ig-embed" src="https://www.instagram.com/theill.lil/embed/" title="ill Lil Instagram posts" loading="lazy" scrolling="no"></iframe></div>
+          </article>
+          <article class="channel-card reveal">
+            <a class="channel-card__head" href="https://www.youtube.com/@lilybiros" target="_blank" rel="noopener">
+              <img src="https://yt3.googleusercontent.com/tKxDMOMeXATkR7hdWQe-Sgq_WQkKn6NH1u_mku9bcl6IuygPWYdQAswll_xhIE2Q9dRangHotA=s176-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" referrerpolicy="no-referrer">
+              <span><h3>Lily on YouTube</h3><span class="channel-card__handle">@lilybiros ↗</span></span>
+            </a>
+            <p class="channel-card__bio">Part time amateur videographer, full time creative enthusiast.</p>
+            <div class="thumbs">
+              <a href="https://www.youtube.com/watch?v=ZVI6f0In6Ec" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/ZVI6f0In6Ec/mqdefault.jpg" alt="Backpacking trip in Zion and Bryce Canyon" loading="lazy"></a>
+              <a href="https://www.youtube.com/watch?v=jLKNo7-cteo" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/jLKNo7-cteo/mqdefault.jpg" alt="France 2026" loading="lazy"></a>
+              <a href="https://www.youtube.com/watch?v=iOev4jMhU0E" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/iOev4jMhU0E/mqdefault.jpg" alt="Great Smoky Mountains backpacking trip" loading="lazy"></a>
+              <a href="https://www.youtube.com/watch?v=Zb5CUSMtrdQ" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/Zb5CUSMtrdQ/mqdefault.jpg" alt="Flavor'd Flow 9th Anniversary, bgirl ill Lil breakin rounds" loading="lazy"></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CRAFT (each one links to its official website) ============ -->
+    <section class="section" style="padding-top: 0">
+      <header class="section__head">
+        <h2 class="display reveal" data-decode>Craft</h2>
+      </header>
+      <div class="stack stack--four">
+        <a class="stack__item reveal" href="https://www.adobe.com/products/premiere.html" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/adobe-premiere.svg" alt="" loading="lazy"><h3>Adobe Premiere</h3><p>Video editing for campaigns and channels</p></a>
+        <a class="stack__item reveal" href="https://www.adobe.com/acrobat.html" target="_blank" rel="noopener"><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Adobe_Acrobat_DC_logo_2020.svg" alt="" loading="lazy"><h3>Adobe Acrobat</h3><p>PDF creation and review</p></a>
+        <a class="stack__item reveal" href="https://www.adobe.com/products/indesign.html" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/adobe-indesign.svg" alt="" loading="lazy"><h3>Adobe InDesign</h3><p>Layouts and print design</p></a>
+        <a class="stack__item reveal" href="https://www.adobe.com/products/illustrator.html" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/adobe-illustrator.svg" alt="" loading="lazy"><h3>Adobe Illustrator</h3><p>Logos and vector graphics</p></a>
+        <a class="stack__item reveal" href="https://www.capcut.com/" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/selfhst/icons/svg/capcut.svg" alt="" loading="lazy"><h3>CapCut</h3><p>Quick edits for short videos</p></a>
+        <a class="stack__item reveal" href="https://www.canva.com/" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="" loading="lazy"><h3>Canva</h3><p>Fast graphics for social media</p></a>
+        <a class="stack__item reveal" href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/adobe-photoshop.svg" alt="" loading="lazy"><h3>Adobe Photoshop</h3><p>Photo editing and compositing</p></a>
+        <a class="stack__item reveal" href="https://marketingplatform.google.com/about/analytics/" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/google-analytics.svg" alt="" loading="lazy"><h3>Google Analytics</h3><p>Website traffic and campaign insights</p></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ CONNECT WITH ME ============ -->
+  <footer class="contact" id="contact">
+    <img class="contact__blob" src="../assets/blob.png" alt="" aria-hidden="true" width="500" height="500">
+    <h2 class="display display--light" data-decode>Connect with me today.</h2>
+    <form class="contact__form" id="contact-form">
+      <label>Name<input name="name" required autocomplete="name"></label>
+      <label>Email<input name="email" type="email" required autocomplete="email"></label>
+      <label class="full">Message<textarea name="message" rows="2" required></textarea></label>
+      <button class="btn btn--light" type="submit">Send message</button>
+      <p class="form-note" id="form-note" role="status"></p>
+    </form>
+    <div class="contact__links">
+      <a href="https://www.linkedin.com/in/lilybiros/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a href="https://github.com/lilybiros" target="_blank" rel="noopener">GitHub ↗</a>
+      <span>© <span class="year"></span> Lily Biros</span>
+    </div>
+  </footer>
+
+  <script src="../main.js" defer></script>
+</body>
+</html>
