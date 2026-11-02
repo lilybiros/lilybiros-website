@@ -9,13 +9,13 @@ I work in digital communications, and I built this site to show my work and to l
 | | |
 |---|---|
 | **Goal** | Replace a template portfolio with a site I own and can keep editing |
-| **Audience** | Recruiters and hiring managers first, then people curious about my creative projects |
-| **Message** | I make technical work easy to understand, and I'm curious enough to learn new tools |
+| **Audience** | For people who are curious to learn |
+| **Message** | Anyone can create anything, so don't let "I don't know" stop you from reaching your potential to learn new tools |
 
 ## Decisions I made
 
 - **Two pages with two personalities.** The portfolio is bright and professional. Recreation inverts to black, so the shift from work to personal projects is obvious at a glance.
-- **Motion with a purpose.** Headings scramble into place and a network of points drifts behind the page, which suits a communicator who enjoys technology. People who ask their device to reduce motion don't get these animations.
+- **Motion with a purpose.** Headings scramble into place and a network of points drifts behind the page, which suits a communicator who enjoys technology.
 - **A logo people can play with.** Visitors can poke and drag the mascot. It's a small moment that makes the site memorable.
 - **Designed for phones too.** On small screens, cards stay side by side and swipe sideways, so the layout still feels like the desktop version.
 
@@ -41,7 +41,7 @@ public/
 
 ## What I learned
 
-- Writing a clear brief matters as much with AI as it does with an agency. Vague feedback gets vague results.
+- Writing a clear brief matters as much with AI as it does with an agency. Vague feedback gets vague results, and everything is rooted in creative direction and vision.
 - Testing on a real phone catches problems a desktop preview misses.
 - Security and search are communication problems too: each one depends on telling browsers and search engines exactly what you mean.
 
