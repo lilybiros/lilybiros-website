@@ -37,8 +37,6 @@ public/
   recreation/index.html  channels, self hosting and creative tools
   styles.css             the look of every page
   main.js                animations and interactions
-  assets/                logos
-  photos/                my photos
 ```
 
 ## What I learned
@@ -49,6 +47,6 @@ public/
 
 ## Notes
 
-This repo is a public copy of the site's files. The live site deploys from a separate private repo, so this copy can lag behind it. The photos on the Projects section are stock images from Unsplash for now.
+This repo is a public copy of the site's code. My logos and photos aren't included, so the pages here won't look complete on their own: visit [lilybiros.com](https://lilybiros.com) to see the finished site. The live site deploys from a separate private repo, so this copy can lag behind it. The photos on the Projects section are stock images from Unsplash for now.
 
 The code is here for you to look through. My name, logos, photos and writing are mine, so please don't reuse them.
